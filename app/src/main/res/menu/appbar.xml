@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <item
+        android:id="@+id/action_satellite_view"
+        android:icon="@drawable/ic_sharp_satellite_24"
+        android:title="Satellite Map View"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_dark_view"
+        android:icon="@drawable/ic_sharp_nights_stay_24"
+        android:title="Dark Map View"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_traffic_day"
+        android:icon="@drawable/ic_sharp_traffic_24"
+        android:title="Traffic Day View"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/action__pyramids"
+        android:icon="@android:drawable/ic_menu_agenda"
+        android:title="Pyramids of Giyza"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/action_Mount_Robson"
+        android:icon="@android:drawable/ic_menu_agenda"
+        android:title="Mount Robson"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/action_area_51"
+        android:icon="@android:drawable/ic_menu_agenda"
+        android:title="Area 51"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_current_location"
+        android:icon="@android:drawable/ic_menu_agenda"
+        android:title="Current Location"
+        app:showAsAction="never"/>
+
+
+</menu>
+
